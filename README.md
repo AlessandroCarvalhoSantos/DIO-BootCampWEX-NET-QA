@@ -63,6 +63,8 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
 
 
 
+
+
 ----
 
 ##### :dart:Tecnologias que pretendo estudar a médio e longo prazo
@@ -93,7 +95,7 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
     </div>
 </details>
 
- 
+
 
 
 
