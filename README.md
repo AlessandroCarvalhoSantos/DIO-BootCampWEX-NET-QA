@@ -10,8 +10,6 @@ Como parte integrante da equipe, também me destaco no treinamento de novos memb
 
 Essa abordagem abrangente e proativa no ciclo de desenvolvimento reflete meu compromisso em proporcionar soluções robustas e de alta qualidade. Estou sempre pronto para enfrentar desafios e garantir o sucesso dos projetos em que estou envolvido.
 
-
-
 Minha trajetória inclui uma experiência enriquecedora como estagiário na Prefeitura Municipal de Cachoeiro de Itapemirim - ES, onde tive a oportunidade e a liberdade para desenvolver sistemas essenciais para a cidade. Abaixo, destaco alguns dos sistemas que tive o privilégio de contribuir;
 
 Ao longo desse percurso, adquiri conhecimentos sólidos e estou em constante busca por aprimoramento. A curto prazo, tenho como meta consolidar habilidades que listei abaixo. Estou atualmente investindo em uma série de cursos na área, visando ampliar meu escopo de competências.
@@ -45,45 +43,65 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
 
 :blue_book:Maiores conhecimentos:
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"><img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"><img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-
+<img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"><img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white">
 
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"><img src="https://img.shields.io/badge/S-ScriptCase-blue?style=for-the-badge">
 
-<img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white">
+![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)![Blazor](https://img.shields.io/badge/blazor-%235C2D91.svg?style=for-the-badge&logo=blazor&logoColor=white)![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) 
+
+![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 :orange_book: Tenho conhecimento:
 
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"><img src="https://img.shields.io/badge/Oracle-red?style=for-the-badge&logo=oracle">
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"><img src="https://img.shields.io/badge/Oracle-red?style=for-the-badge&logo=oracle"><img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
 
-<img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-
-----
-
-
-
-
+<img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ----
 
 ##### :dart:Tecnologias que pretendo estudar a médio e longo prazo
 
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"><img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"><img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"><img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"><img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"><img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white">
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"><img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white">![Xamarin](https://img.shields.io/badge/Xamarin-3199DC?style=for-the-badge&logo=xamarin&logoColor=white)
 
 ----
 
+:computer:Sistemas em que trabalho atualmente juntos a outros programadores
 
+O Sistema Único de Assistência Social (SUAS) é uma política pública implementada no Brasil para promover e garantir o acesso aos direitos sociais de cidadania, especialmente aqueles em situação de vulnerabilidade e risco social. Ele é coordenado pelo Ministério da Cidadania e executado em parceria com estados, municípios e o Distrito Federal.
+
+O SUAS é composto por uma série de serviços, programas, projetos e benefícios que visam fortalecer a proteção social, promovendo a inclusão e o desenvolvimento das pessoas e famílias em situação de vulnerabilidade. Abaixo, descrevo alguns dos principais componentes do SUAS e como eles funcionam nos estados do Espírito Santo e Bahia:
+
+1. **Atendimentos e Visitas**: O SUAS proporciona atendimentos individuais e visitas domiciliares para identificar as necessidades específicas das famílias e indivíduos, possibilitando a elaboração de planos de acompanhamento personalizados.
+
+2. **Acompanhamento Familiar**: Consiste no suporte técnico e orientação oferecidos às famílias em situação de vulnerabilidade, visando o fortalecimento de vínculos e a promoção de autonomia.
+
+3. **SCFV (Serviço de Convivência e Fortalecimento de Vínculos)**: São atividades coletivas voltadas para crianças, adolescentes, jovens e idosos em situação de vulnerabilidade, promovendo o desenvolvimento de habilidades sociais, culturais e de lazer.
+
+4. **PAEIF (Programa de Atendimento Integral à Família)**: Oferece acompanhamento especializado a famílias que se encontram em situação de vulnerabilidade social, com o objetivo de fortalecer os vínculos familiares e comunitários.
+
+5. **Medidas Socioeducativas**: Voltadas para adolescentes em conflito com a lei, visam a ressocialização e a promoção de sua reinserção na sociedade por meio de atividades socioeducativas.
+
+6. **Atendimento a Autismo**: Inclui serviços especializados para pessoas com Transtorno do Espectro Autista (TEA), visando sua inclusão social, apoio familiar e desenvolvimento de habilidades específicas.
+
+7. **Agendamentos**: O SUAS facilita o agendamento de atendimentos e acompanhamentos, proporcionando um sistema organizado e eficiente para o acesso aos serviços disponíveis.
+
+8. **Cadastro Único**: É uma ferramenta essencial para identificar e cadastrar as famílias em situação de vulnerabilidade, permitindo a inclusão nos programas sociais do governo, como o Bolsa Família e outros benefícios.
+
+9. **Atendimento em Múltiplos Municípios**: O SUAS opera de forma descentralizada, possibilitando a sua implementação em diversos municípios, o que contribui para a abrangência e efetividade da assistência social.
+
+Nos estados do Espírito Santo e Bahia, o SUAS desempenha um papel fundamental na promoção da inclusão e na melhoria da qualidade de vida das pessoas em situação de vulnerabilidade social. Através de uma abordagem integrada e multiprofissional, o sistema busca atender às necessidades específicas de cada indivíduo e família, promovendo assim a igualdade de oportunidades e o exercício pleno da cidadania.
 
 ----
 
 ##### :computer:Sistemas que desenvolvi na prefeitura
 
-| Sistema de Boletim de Atendimento Urgente (Em desenvolvimento) |
+|  Sistema de Boletim de Atendimento Urgente (Descontinuado)   |
 | :----------------------------------------------------------: |
-| Estou desenvolvendo o site utilizando tecnologias como PHP, JavaScript, HTML/CSS, Bootstrap, criei a parte de banco de dados no Oracle, arquitetado no padrão MVC e tudo supervisionado. O sistema conta com painel administrativo, para médicos, recepcionistas e enfermeiros. É um sistema de cadastro de boletim de atendimento de urgência e que visa integrar todas as unidades básicas de saúde para um melhor atendimento da cidade de Cachoeiro de Itapemirim-ES. O sistema ainda ta no desenvolvimento inicial. |
+| Desenvolvi o site utilizando tecnologias como PHP, JavaScript, HTML/CSS, Bootstrap, criei a parte de banco de dados no Oracle, arquitetado no padrão MVC e tudo supervisionado. O sistema conta com painel administrativo, para médicos, recepcionistas e enfermeiros. É um sistema de cadastro de boletim de atendimento de urgência e que visa integrar todas as unidades básicas de saúde para um melhor atendimento da cidade de Cachoeiro de Itapemirim-ES. O sistema estava em estado inicial, não foi implementado e foi descontinuado. |
 
 <details style="background-color:black; color:white; padding:10px;">
     <summary>Imagens do projeto</summary>
@@ -95,11 +113,7 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
     </div>
 </details>
 
-
-
-
-
-| Sistema municipal de coleta de materiais (Entrando na etapa de implantação) |
+|   Sistema municipal de coleta de materiais (Implementado)    |
 | :----------------------------------------------------------: |
 | Desenvolvi o site utilizando tecnologias como PHP, JavaScript, HTML/CSS, Bootstrap,  criei a parte de banco de dados no Oracle. O sistema conta painel administrativo e parte de usuário, onde ele pode se cadastrar e fazer pedidos de coleta de algum tipo de material. O sistema conta com gerenciamento de sessão, rotas, sistema de envio de e-mail, alteração de senha, cadastros, gerenciamento de pedidos, impressão de comprovantes e etc. Arquitetado no padrão MVC e com supervisão do meu superior. |
 
@@ -115,10 +129,6 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
         <img style="margin-top:10px" src="./04 - Outros/assets/img/readme/Coleta7.png">
     </div>
 </details>
-
-
-
-
 
 | Sistema de cadastro em eventos esportivos municipais (Implementado) |
 | :----------------------------------------------------------: |
@@ -136,10 +146,6 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
     </div>
 </details>
 
-
-
-
-
 |   Sistema de inscrição em processo seletivo (Implementado)   |
 | :----------------------------------------------------------: |
 | Desenvolvi o site utilizando tecnologias como PHP, JavaScript, HTML/CSS, Bootstrap, a parte de banco já estava feito. Esse sistema era feito em Java, jsp e algumas outras tecnologias em versões antigas, minha função foi estudar a parte de usuário e reescreve-la em tecnologias mais atual e tentando manter um mesmo layout, porém com designer mais moderno. Essa parte conta com cadastro de usuário, disparo de e-mail, comprovantes de inscrição, inscrições, alteração de dados e ver inscrições antigas para tirar a segunda via. O sistema administrativo ainda não foi reformulado. |
@@ -156,10 +162,6 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
     </div>
 </details>
 
-
-
-
-
 |       Sistema de sorteio da prefeitura (Implementado)        |
 | :----------------------------------------------------------: |
 | Desenvolvi o site utilizando tecnologias como PHP, JavaScript, HTML/CSS, Bootstrap e criei a parte de banco de dados no Oracle. O sistema conta painel administrativo e parte de usuário, o sistema tem intuito de realizar sorteio para a prefeitura, o sistema é todo adaptável para necessidade do tipo de sorteio, possui área usuário que pode ser usada ou não, ou os dados podem ser importados também. O sistema possui painel administrativo, e uma área de usuário. |
@@ -173,10 +175,6 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
         <img style="margin-top:10px" src="./04 - Outros/assets/img/readme/Sorteio4.png">
     </div>
 </details>
-
-
-
-
 
 |                            Outros                            |
 | :----------------------------------------------------------: |
@@ -195,10 +193,6 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
 
 
 
-
-
-
-
 :ledger: Bom, se você chegou ate aqui é que você se interessou pelo meu perfil, agradeço por ter lido e abaixo tenho algumas formas de entrar em contato caso tenha interesse para algum trabalho profissional, fique a vontade!
 
 
@@ -213,13 +207,13 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
 
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> www.linkedin.com/in/alessandrocarvalhosantos
 
+![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white) https://www.instagram.com/alessandroc_santos/
+
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> https://github.com/AlessandroCarvalhoSantos/
 
 <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white"> Em breve...
 
 <img src="https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white"> Em breve...
-
-
 
 
 
