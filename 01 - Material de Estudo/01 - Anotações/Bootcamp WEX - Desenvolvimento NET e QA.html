@@ -1,0 +1,702 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Bootcamp WEX - Desenvolvimento .NET e QA</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="351313ac-85d4-458d-8c6e-a0b2945d8d48" class="page sans"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">📚</span></div><h1 class="page-title"><strong><strong>Bootcamp WEX - Desenvolvimento .NET e QA</strong></strong></h1><p class="page-description"></p></header><div class="page-body"><ul id="7cbc6de8-cf16-47d1-9cf2-e69583b14973" class="toggle"><li><details open=""><summary>Informações sobre o Bootcamp</summary><figure id="bf97e2dd-c112-425b-9c5e-2ee7175db6b0"><a href="https://www.dio.me/bootcamp/bootcamp-wex-desenvolvimento-net-e-qa" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Bootcamp WEX - Desenvolvimento .NET e QA</div><div class="bookmark-description">Bem-vindos(as) ao Bootcamp WEX - Desenvolvimento .NET e QA! Inscreva-se já.</div></div><div class="bookmark-href"><img src="https://www.dio.me/favicon.ico" class="icon bookmark-icon"/>https://www.dio.me/bootcamp/bootcamp-wex-desenvolvimento-net-e-qa</div></div></a></figure><h3 id="c3ff9896-04a3-4573-ba0e-bcc7232cd0ab" class=""><strong>Detalhes do bootcamp</strong></h3><p id="7a1f6275-77e5-40c4-b449-ca80b59af0fa" class="">A WEX, uma plataforma de comércio global, com presença em 16 países, se juntou à DIO em um programa inédito e com oportunidades de contratação! Mantendo o compromisso com a Diversidade e Inclusão, a WEX terá vagas afirmativas para pessoas com deficiência.</p><p id="f4879a28-af2d-4b54-ae22-3ba908cc1c7d" class="">Domine conceitos avançados de programação em C#, trabalhe com bancos de dados SQL Server e compreenda os fundamentos e práticas do QA, incluindo automação de testes, para aprimorar seu desenvolvimento em .NET e QA e se destacar no mercado.</p><p id="1fba80f1-4017-4709-9448-1485bc1d8a10" class="">Você vai aprender desde os conceitos fundamentais do .Net, aprimoramento da lógica computacional, exploração aprofundada da linguagem C# com ênfase na programação orientada a objetos e práticas relacionadas ao desenvolvimento orientado a testes e qualidade de software, em conteúdos com experts da DIO e WEX além de mentorias com experts da DIO e WEX, desafios e código e projetos práticos para o portfólio.</p><p id="ea491e80-71b3-4f20-b5b1-bf7630fead14" class=""><strong><strong>Atividades:</strong></strong></p><ul id="e8db99e7-5e1a-417a-9b98-eecc97e5d091" class="bulleted-list"><li style="list-style-type:disc"><strong>Mentorias (Live): </strong>Momento em que você irá se inspirar nos talentos das empresas mais inovadoras do mundo, podendo interagir ao longo da live e até fazer perguntas sobre carreira e tecnologia.</li></ul><ul id="c3d21ee5-2cbd-4cfb-90fe-6de02136b6bb" class="bulleted-list"><li style="list-style-type:disc"><strong>Desafio de Código: </strong>Coloque em prática todo o conhecimento adquirido nas aulas e teste o seu conhecimento na resolução de um desafio.</li></ul><ul id="af1abea7-6ef7-4257-b44b-9cab11bd6428" class="bulleted-list"><li style="list-style-type:disc"><strong>Desafio de Projeto: </strong>Construa o seu portfólio construindo projetos práticos com o conhecimento adquirido ao longo das aulas.</li></ul><ul id="229682c6-5779-4899-a16b-93e4877f6447" class="bulleted-list"><li style="list-style-type:disc"><strong>Ranking: </strong>Cada bootcamp possui um ranking com premiações exclusivas, onde você pontua de acordo com as interações que você realiza em Fórum e Rooms, dos acertos que você tem em questionários e da qualidade do código que você desenvolveu nos desafios.</li></ul><p id="d6be5386-8790-4afb-a846-3ed2a241573f" class="">
+</p></details></li></ul><ul id="9d4f8347-da1f-4e9b-95da-5af745494cf4" class="toggle"><li><details open=""><summary>Estudos extras</summary><ul id="8d4839ec-c995-480e-a95b-27e80b466809" class="toggle"><li><details open=""><summary>Markdown</summary></details></li></ul></details></li></ul><ul id="fc40f86a-7e2d-4f07-9d6a-552723ce22c8" class="toggle"><li><details open=""><summary>Mentorias</summary><p id="20045545-1cbb-4e4e-bcde-52a9966ca0d5" class="">
+</p></details></li></ul><ul id="8fe7b0eb-cff3-487b-96eb-24216572fb93" class="toggle"><li><details open=""><summary>Módulos de aprendizagem</summary><ul id="cb5d4daa-84e3-4225-8758-02bb101ba7f3" class="toggle"><li><details open=""><summary>Princípios de desenvolvimento ágil e colaborativo</summary><ul id="2cdc6c63-18c0-470f-8d9a-88b59edca9ba" class="toggle"><li><details open=""><summary>BootCamps Dio: Educação gratuita e empregabilidade juntas.</summary><ul id="28cf8e41-e693-4dfa-b7d3-e17a579cea8d" class="bulleted-list"><li style="list-style-type:disc">Explicação da aprendizagem da DIO<ul id="16bcf3e5-75b1-4df2-95a1-c48ed67c1a61" class="bulleted-list"><li style="list-style-type:circle">Aulas assíncronas</li></ul><ul id="4b140eae-356b-4acc-8690-1b7c8e82483b" class="bulleted-list"><li style="list-style-type:circle">Desafios de código</li></ul><ul id="525ca9c6-ecef-47d1-9f3d-c887095dd0d2" class="bulleted-list"><li style="list-style-type:circle">Mentorias</li></ul><ul id="2e1af399-1b58-447d-9258-e1669d6dd349" class="bulleted-list"><li style="list-style-type:circle">Projetos</li></ul><ul id="c1218f40-1c7f-45af-9678-b42f12f27c1c" class="bulleted-list"><li style="list-style-type:circle">Certificados</li></ul></li></ul><ul id="a0b2ff60-c10b-4189-8206-a931990b34fa" class="bulleted-list"><li style="list-style-type:disc">Explicação da plataforma<ul id="e6256209-c0c8-4cd1-a387-13095b472a9d" class="bulleted-list"><li style="list-style-type:circle">Aulas</li></ul><ul id="bc2120db-01d4-4721-b38e-51c3fa78a103" class="bulleted-list"><li style="list-style-type:circle">Desafios</li></ul><ul id="c1e657f0-cf10-4e5b-adeb-b0029b0f2a30" class="bulleted-list"><li style="list-style-type:circle">Fórum</li></ul><ul id="bcf86265-0631-447f-a640-a4d2f172a0da" class="bulleted-list"><li style="list-style-type:circle">Rooms </li></ul></li></ul></details></li></ul><ul id="c88e1ab2-bbd5-45a5-be48-9362c2b16ff9" class="toggle"><li><details open=""><summary>Versionamento de código com Git e GitHub</summary><ul id="b5d15a93-97ae-4952-8bde-8ad64e6c1d0d" class="toggle"><li><details open=""><summary>Visão Geral do curso e ferramentas</summary><ul id="d1260256-be74-474c-ba70-c6d080e3b512" class="toggle"><li><details open=""><summary>Introdução ao Curso</summary><ul id="6fa31702-63ed-44fb-8614-a74322f38049" class="bulleted-list"><li style="list-style-type:disc">Apresentação da mentora Elidiana Andrade</li></ul><ul id="f5951ccb-674d-46f2-8fc8-9383f853de21" class="bulleted-list"><li style="list-style-type:disc">Objetivo do curso<ul id="94aa2dc2-ea5a-4617-ba18-847311cad2a9" class="bulleted-list"><li style="list-style-type:circle">Introduzir ao versionamento de código com Git e GitHub.</li></ul><ul id="5c180ab6-a971-4e28-a962-6c13d624c9d6" class="bulleted-list"><li style="list-style-type:circle">Conhecer as ferramentas</li></ul><ul id="54fdf504-e056-487a-a14b-1a84ebb9f870" class="bulleted-list"><li style="list-style-type:circle">Instalar, Configurar e Autenticar</li></ul><ul id="cbabf3d3-91ea-4154-b1a2-b403f4b7bc31" class="bulleted-list"><li style="list-style-type:circle">Primeiros Passos com Git e GitHub</li></ul><ul id="d7250974-b2c6-4b32-8922-a9cdd613fb29" class="bulleted-list"><li style="list-style-type:circle">Dicas e Materiais de Apoio</li></ul></li></ul></details></li></ul><ul id="e88d9c46-c1b1-4fea-aa38-844d96b0c161" class="toggle"><li><details open=""><summary>O que é versionamento de código</summary><ul id="b0a8c3ca-12d8-45a2-a322-139a5e99b763" class="bulleted-list"><li style="list-style-type:disc">O versionamento de código é o processo de gerenciar e controlar as diferentes versões de um software ao longo do tempo. Ele é essencial para facilitar o desenvolvimento colaborativo, rastrear mudanças, solucionar problemas e manter um histórico das modificações realizadas em um projeto de software.</li></ul><ul id="47f68809-abb7-41d4-a9ca-6118a5f6a955" class="bulleted-list"><li style="list-style-type:disc">Sistemas de Controle de Versão<ul id="29bb87a9-e867-4cad-ad0f-c2d9746b00da" class="bulleted-list"><li style="list-style-type:circle">Controlam as versões de um arquivo ao longo do tempo.</li></ul><ul id="c3f9e90a-743c-4ad9-9b3d-7f0a3b92b290" class="bulleted-list"><li style="list-style-type:circle">Registra o histórico de atualizações de um arquivo;</li></ul><ul id="a9bc8a94-2ced-4381-b2e4-e00624fad499" class="bulleted-list"><li style="list-style-type:circle">Gerencia quais foram as alterações, a data, autor, etc.;</li></ul><ul id="1dba4629-7ab0-4f4f-a510-13c320a84821" class="bulleted-list"><li style="list-style-type:circle">Organização, controle e segurança.</li></ul></li></ul><ul id="c87ba674-0ecc-400d-b957-7ca3e1474691" class="bulleted-list"><li style="list-style-type:disc">Tipos de sistemas de controle de versão<ul id="3c6a9bac-6ef5-4ddc-8379-53aec084b8af" class="bulleted-list"><li style="list-style-type:circle">Dentro os sistemas de controle de versão (VCS), temos:<ul id="726ddeea-f990-4738-b89f-7fc14e092ecf" class="bulleted-list"><li style="list-style-type:square">VCS Centralizado (CVCS)<ul id="7300c4d7-c55b-4f8f-952c-0b2c433f9876" class="bulleted-list"><li style="list-style-type:disc">Servidor centralizado, edição dos arquivos de forma remota<ul id="d0f8e5a0-d0e2-426b-b461-c95c464e39a4" class="bulleted-list"><li style="list-style-type:circle">Desvantagens de ficar fora do ar, fica sem mexer</li></ul></li></ul><ul id="d6539215-28f2-4cdb-96ba-3b12ce866c49" class="bulleted-list"><li style="list-style-type:disc">EX: CVS E Subversion</li></ul></li></ul><ul id="e593ab90-4c5a-4cde-bb07-9c2eaf407b65" class="bulleted-list"><li style="list-style-type:square">VCS Distribuído (DVCS)<ul id="c2132ea9-f468-4d3d-9bf2-9c6cc7705264" class="bulleted-list"><li style="list-style-type:disc">Servidor centralizado + repositório localizados (Ecossistema descentralizado)</li></ul><ul id="b4371a3b-c04d-40ee-bfb5-2af4c6f1c983" class="bulleted-list"><li style="list-style-type:disc">Clona é como backup, clona tudo desde o histórico até arquivos antigos e informações de todos do projeto</li></ul><ul id="561f4d32-0400-4953-8a5b-b3b87b9d7e88" class="bulleted-list"><li style="list-style-type:disc">Possibilita trabalhar sem a rede e trabalho flexível</li></ul><ul id="efd74edb-e950-4ddc-9686-4250985a59e3" class="bulleted-list"><li style="list-style-type:disc">Git e Mercurial</li></ul></li></ul></li></ul></li></ul><ul id="a7846bf8-e1d1-4a07-884e-52ca2333a2a9" class="bulleted-list"><li style="list-style-type:disc">Existem várias ferramentas e sistemas de controle de versão disponíveis, sendo os mais populares:<ol type="1" id="f1044ac3-3e66-4abb-808d-dda247147eb3" class="numbered-list" start="1"><li><strong>Git</strong>: É um sistema de controle de versão distribuído amplamente utilizado. Permite que vários desenvolvedores trabalhem em paralelo em um mesmo projeto e mantém um histórico detalhado de todas as mudanças.</li></ol><ol type="1" id="3a512e81-0732-4c2d-9a6a-f40919d29e03" class="numbered-list" start="2"><li><strong>Subversion (SVN)</strong>: É um sistema de controle de versão centralizado. Embora não seja tão flexível quanto o Git em termos de trabalho colaborativo, ainda é usado em alguns projetos.</li></ol><ol type="1" id="84282f8d-8a59-4583-9d76-0c024a2bdc84" class="numbered-list" start="3"><li><strong>Mercurial</strong>: Assim como o Git, é um sistema de controle de versão distribuído. Embora menos popular do que o Git, oferece funcionalidades semelhantes.</li></ol></li></ul></details></li></ul><ul id="ccada597-f2dd-417b-b89b-0dfb99ea4e23" class="toggle"><li><details open=""><summary>O que é GIT</summary><ul id="0567e1ad-fe74-4883-94bd-4631892292a2" class="bulleted-list"><li style="list-style-type:disc">O Git é um sistema de controle de versão distribuído amplamente utilizado para o desenvolvimento de software. Foi criado por Linus Torvalds, o mesmo criador do kernel do Linux, e é conhecido pela sua eficiência, velocidade e flexibilidade.</li></ul><ul id="82a25c33-13ce-46c2-9e2b-473a47380316" class="bulleted-list"><li style="list-style-type:disc">Gratuito e open source</li></ul><ul id="5b9e7653-de4b-43c8-bd2a-45838036f19b" class="bulleted-list"><li style="list-style-type:disc">Sistema de ramificações (branch) e fusões (merge)</li></ul><ul id="989996d0-8488-4a28-85d2-819bb7372790" class="bulleted-list"><li style="list-style-type:disc">Leve e rápido</li></ul><ul id="d323c02b-456d-41f4-a29c-62ae4b2382b7" class="bulleted-list"><li style="list-style-type:disc">Site oficial do git<figure id="907a3b09-6140-4389-9b1e-f11466acad0a"><a href="https://git-scm.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Git</div><div class="bookmark-description">Git is a free and open source
+        distributed version control system designed to handle everything from small to
+        very large projects with speed and efficiency.</div></div><div class="bookmark-href"><img src="https://git-scm.com/favicon.ico" class="icon bookmark-icon"/>https://git-scm.com/</div></div></a></figure></li></ul><ul id="17515148-2b43-462d-a58b-7066446fba35" class="bulleted-list"><li style="list-style-type:disc">Breve histórico do git<ul id="4e058455-c186-4627-a86c-1cbdb192269a" class="bulleted-list"><li style="list-style-type:circle">2002 → O projeto do núcleo (kernel) do Linux, que é open source, começa a utilizar o BitKeeper, um DVCS proprietário;</li></ul><ul id="a7f6c8d4-97fa-41fd-bcd8-a5063f18fde3" class="bulleted-list"><li style="list-style-type:circle">2005 → Após conflitos com a comunidade, o BitKeeper rescinde a licença gratuita. O que leva a linux
+Torvalds, o criador do Linux, e sua equipe desenvolverem sua própria ferramenta, o Git.</li></ul></li></ul><ul id="7a728f17-9866-441d-a80d-897793158400" class="bulleted-list"><li style="list-style-type:disc">Fluxo Básico do GIT<ul id="ae0d7e61-ff4c-4d7f-b33a-e27294edcae8" class="bulleted-list"><li style="list-style-type:circle">Quando queremos clonar um repositório damos o seguinte comando</li></ul><ul id="2bf14ce9-a060-4661-a18c-63f0e003ce53" class="bulleted-list"><li style="list-style-type:circle">git clone → Clona um repositório git existente para um novo diretório (pasta) local.</li></ul><ul id="0f22570e-4141-419f-8d52-b644b83bf0f3" class="bulleted-list"><li style="list-style-type:circle">git commit → Grava alterações no repositório</li></ul><ul id="69fd0df0-d6d4-4b80-9547-25ea1fc312d3" class="bulleted-list"><li style="list-style-type:circle">git pull → “Puxa” as alterações do repositório remoto para o local (busca e mescla)</li></ul><ul id="ffcbb100-c80f-472d-be66-6bdee6761948" class="bulleted-list"><li style="list-style-type:circle">git push → Empurra as alterações do repositório local para o remoto</li></ul><ul id="7b303d04-91e5-4d16-83a8-b2a627fb9e94" class="bulleted-list"><li style="list-style-type:circle">Fluxo<ul id="b009efa7-e440-4e94-9819-f50f32f50578" class="bulleted-list"><li style="list-style-type:square">Clonar → puxar ←→ comitar ←→ subir</li></ul></li></ul></li></ul></details></li></ul><ul id="4a952ecd-5ad9-4b7b-8770-b1298fb13480" class="toggle"><li><details open=""><summary>O que é GitHub</summary><ul id="7c20acbc-e2ef-44d3-9fe7-e652363931fc" class="bulleted-list"><li style="list-style-type:disc">O GitHub é uma plataforma de hospedagem de código fonte e colaboração para desenvolvimento de software. Ele oferece uma série de ferramentas e recursos que facilitam o gerenciamento de projetos, o controle de versões e a colaboração entre equipes de desenvolvimento.</li></ul><ul id="39933575-56f7-46e8-a987-1c5550429021" class="bulleted-list"><li style="list-style-type:disc">Comunidade ativa</li></ul><ul id="9d2f0529-6a6b-4e0c-931b-b928ea419f0b" class="bulleted-list"><li style="list-style-type:disc">Utilizado mundialmente</li></ul><ul id="19958856-6962-4676-901b-22c46ff11517" class="bulleted-list"><li style="list-style-type:disc">Breve Histórico do GitHub<ul id="b0300a90-c38b-4bde-929c-5861e015741b" class="bulleted-list"><li style="list-style-type:circle">2008 →  Desenvolvido por Chris Wanstrath, J. Hyett, Tom Preston-Werner e Scott Chacon.</li></ul><ul id="9757e205-623f-49bc-ada5-e355cda04d78" class="bulleted-list"><li style="list-style-type:circle">2018 → Vítima de um dos maiores ataques de DDoS (ataque distribuído de negação de serviço).  Comprado pela Microsoft Corporation por US $ 7,5 bilhões</li></ul></li></ul><ul id="1975c9ae-ea4e-4792-8dc4-aa569d3e5b45" class="bulleted-list"><li style="list-style-type:disc">Git e GitHub são coisa diferentes<figure id="c69e18ef-2c27-439b-9cab-fa17f6e84c18"><a href="http://github.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">GitHub: Let’s build from here</div><div class="bookmark-description">GitHub is where over 100 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and fea...</div></div><div class="bookmark-href"><img src="https://github.com/fluidicon.png" class="icon bookmark-icon"/>http://github.com/</div></div><img src="https://github.githubassets.com/images/modules/site/social-cards/campaign-social.png" class="bookmark-image"/></a></figure></li></ul><ul id="50c3adcc-ad6e-4696-bd36-2d8e090ae8d6" class="bulleted-list"><li style="list-style-type:disc">Criação da conta normalmente</li></ul><ul id="7cfeda82-342c-4b55-857b-7496e7083f4b" class="bulleted-list"><li style="list-style-type:disc">Adicionar autenticação de dois fatores</li></ul></details></li></ul></details></li></ul><ul id="d57e102e-b87a-42e5-a26a-bb71a810b18a" class="toggle"><li><details open=""><summary>Instalação, configuração e Autenticação</summary><ul id="8956ee92-894f-404f-8d46-28e62dc9959e" class="toggle"><li><details open=""><summary>Instalação do git no Windows</summary><figure id="09cfc263-60f1-4f94-b87c-d96a304e91ea"><a href="https://git-scm.com/download/win" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Git - Downloading Package</div><div class="bookmark-description">The entire Pro Git book written
+  by Scott Chacon and Ben Straub is available to read online for free.
+  Dead tree versions are available on Amazon.com.</div></div><div class="bookmark-href"><img src="https://git-scm.com/favicon.ico" class="icon bookmark-icon"/>https://git-scm.com/download/win</div></div></a></figure><ul id="4fea839f-4dd6-4ccd-b14e-ea9a2786e474" class="bulleted-list"><li style="list-style-type:disc">Depois de baixamos o instalador podemos tá iniciando a instalação</li></ul><ul id="b11f9a18-896c-4fe4-a477-34ac3f73d005" class="bulleted-list"><li style="list-style-type:disc">Depois escolhemos a pasta de destino da instalação.</li></ul><ul id="6d79839a-33bd-4046-a4c2-73c075a45da0" class="bulleted-list"><li style="list-style-type:disc">Depois quais componentes desejamos instalar (Pode deixar padrão aqui)</li></ul><ul id="899b0325-5c58-4e7b-a11e-ac49d768338a" class="bulleted-list"><li style="list-style-type:disc">Depois escolha o editor padrão</li></ul><ul id="b0004732-ce11-4708-bb10-8d44cb69e316" class="bulleted-list"><li style="list-style-type:disc">Depois nome da branch padrão</li></ul><ul id="872af8f2-42be-49a8-9b1e-66acfbb612de" class="bulleted-list"><li style="list-style-type:disc">Mais antigos está como master e hoje se utiliza mais a main</li></ul><ul id="6b20381c-867e-4245-8b12-f1aa38aff9b2" class="bulleted-list"><li style="list-style-type:disc">O resto pode deixar como padrão e instalar normalmente</li></ul></details></li></ul><ul id="dcf71794-4eea-4549-aa49-c0d5705ef0a4" class="toggle"><li><details open=""><summary>Instalando git no linux (Ubuntu)</summary><figure id="c8e365c8-41a7-4de6-8897-37b658bf0834"><a href="https://git-scm.com/download/linux" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Git</div><div class="bookmark-description">It is easiest to install Git on Linux using the preferred package
+  manager of your Linux distribution. If you prefer to build from
+  source, you can find tarballs
+  on kernel.org.
+  The latest version is
+  2.42.0.</div></div><div class="bookmark-href"><img src="https://git-scm.com/favicon.ico" class="icon bookmark-icon"/>https://git-scm.com/download/linux</div></div></a></figure><ul id="9159aa06-04c0-43bf-8e72-43862148f202" class="bulleted-list"><li style="list-style-type:disc">Só seguir os comandos de terminal da documentação</li></ul></details></li></ul><ul id="632b5f09-411b-49aa-9c0b-457e0869578d" class="toggle"><li><details open=""><summary>Configurando o git</summary><ul id="27004002-6d7e-41d3-be0f-0408ff0cc954" class="bulleted-list"><li style="list-style-type:disc">Quando abrimos a o git bash (terminal), temos o nome do usuário, o git e pasta atual</li></ul><ul id="19193e9e-81bb-4e52-975d-1755ceff6eb5" class="bulleted-list"><li style="list-style-type:disc">Podemos alterar o tema, só clicar botão direito no terminal e ir options e depois em temas</li></ul><ul id="deb962a8-d3a9-41a8-9d3f-4238b22138b9" class="bulleted-list"><li style="list-style-type:disc">git config → mostra as configurações do git além de pode modificar variáveis do git<ul id="6d563866-33af-4db2-851b-b305db0bed8f" class="bulleted-list"><li style="list-style-type:circle">As mais importantes são a global (Configurações do usuário), system (do sistema) e local (Configurações locais)</li></ul></li></ul><ul id="aec701b2-b78c-4a9a-a797-0bf23f741a2f" class="bulleted-list"><li style="list-style-type:disc">Ctrl + L → limpa o terminal</li></ul><ul id="94f70ae4-517a-4f90-b37a-3582afb51328" class="bulleted-list"><li style="list-style-type:disc">Definindo o nome de usuário de forma global<ul id="39f428c9-1e86-44e2-a3c9-07bf6125d85a" class="bulleted-list"><li style="list-style-type:circle">O nome fica salvo nos commits</li></ul><ul id="60b9eed8-fa8f-4600-bc80-4be9d3e1af34" class="bulleted-list"><li style="list-style-type:circle">Se alterar o nome, ele não altera nos commits antigos</li></ul></li></ul><pre id="50f00973-1671-4643-be8f-bfd134dbf157" class="code"><code>git config --global user.name &quot;NomeUser&quot;</code></pre><ul id="9aa9f57e-8c4a-4dea-9f62-de4d18067418" class="bulleted-list"><li style="list-style-type:disc">Definindo o email de usuário de forma global</li></ul><pre id="c37544d2-d964-424b-8253-753a8e4c1bf4" class="code"><code>git config --global user.email email@xxxx.xx</code></pre><ul id="d3df15bd-5db2-4f1d-9817-e4643fa56e75" class="bulleted-list"><li style="list-style-type:disc">Caso queira ver as config<ul id="cc08c8fd-43f5-4e99-a79f-b04e2434e3cb" class="bulleted-list"><li style="list-style-type:circle">git config user.name</li></ul><ul id="c2a57304-e21b-46a5-82e8-a1626cd9a3a1" class="bulleted-list"><li style="list-style-type:circle">git config user.email</li></ul></li></ul><ul id="c4a697c4-a103-49f0-89c2-74d78477b195" class="bulleted-list"><li style="list-style-type:disc">Configurando o nome da branch padrão<ul id="3db19b66-b192-4975-8b7a-246c930716a5" class="bulleted-list"><li style="list-style-type:circle">Exibe o nome da branch padrão quando criada</li></ul><pre id="9492b37e-8ad6-4062-ae44-a8b7b37ccb66" class="code"><code>git config init.defaultBranch</code></pre><ul id="5e2692c9-7eeb-439d-bd76-40347882cee8" class="bulleted-list"><li style="list-style-type:circle">Alterando o valor</li></ul><pre id="6d7818b3-6777-4954-a787-31833675c62c" class="code"><code>git config --global init.defaultBranch main</code></pre><ul id="363636cd-ab59-4922-85be-b38d9c11c5ef" class="bulleted-list"><li style="list-style-type:circle">Podemos alteras inúmera outras coisa, podemos ler mais na documentação<figure id="961c45c1-9391-44c0-bb13-e00ccc694e51"><a href="https://git-scm.com/docs/git-config" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Git - git-config Documentation</div><div class="bookmark-description">Check your version of git by running</div></div><div class="bookmark-href"><img src="https://git-scm.com/favicon.ico" class="icon bookmark-icon"/>https://git-scm.com/docs/git-config</div></div></a></figure></li></ul><ul id="0e8c8465-c00e-4213-875e-bbdc78da9470" class="bulleted-list"><li style="list-style-type:circle">Informações sobre configurações iniciais<figure id="5b83344b-572a-49ad-aef0-51526946f457"><a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Git - First-Time Git Setup</div><div class="bookmark-description">This book is available in
+  English.</div></div><div class="bookmark-href"><img src="https://git-scm.com/favicon.ico" class="icon bookmark-icon"/>https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup</div></div></a></figure></li></ul><ul id="2189b796-44dc-4d1d-b6c8-6b37da442254" class="bulleted-list"><li style="list-style-type:circle">Mostra todas as configs (global, system, local)<ul id="8db61762-53c4-4ad8-8e70-f3d4b2b4e6af" class="bulleted-list"><li style="list-style-type:square">A local só funciona quando tiver algum repositório local </li></ul><pre id="665fc197-4319-435e-a9ef-54d77a3d62d9" class="code"><code>git config --global --list
+git config --local --list
+git config --system --list</code></pre></li></ul></li></ul></details></li></ul><ul id="543498f8-47da-4649-8405-9f926a66b1fe" class="toggle"><li><details open=""><summary>Autenticação via Token</summary><ul id="a82bf018-bc6e-4084-8dd9-7b4ee72db3ca" class="bulleted-list"><li style="list-style-type:disc">Desde 2021, o github deixou de usar senhas, agora ele usa tokens</li></ul><figure id="f8dbe53f-3937-4d85-8876-c636caf92f6f"><a href="https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Token authentication requirements for Git operations</div><div class="bookmark-description">Beginning August 13th, 2021, we will no longer accept account passwords when authenticating Git operations on GitHub.com.</div></div><div class="bookmark-href"><img src="https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=192%2C192" class="icon bookmark-icon"/>https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/</div></div><img src="https://github.blog/wp-content/uploads/2019/09/security-1200-630.png?fit=1200%2C630" class="bookmark-image"/></a></figure><ul id="661fa3a1-10d7-439f-bb04-a0f47c3d973d" class="bulleted-list"><li style="list-style-type:disc">O uso de token tem vantagens como<ul id="ad5da8e0-3b39-45dc-adc5-c9ae7f85e73f" class="bulleted-list"><li style="list-style-type:circle"><strong>Único</strong> – os tokens são específicos do GitHub e podem ser gerados por uso ou por dispositivo</li></ul><ul id="76d78462-b4be-4f35-ade2-f19f602e6516" class="bulleted-list"><li style="list-style-type:circle"><strong>Revogável </strong>– os tokens podem ser revogados individualmente a qualquer momento, sem a necessidade de atualizar credenciais não afetadas</li></ul><ul id="1d112cab-0f4b-43e2-8be4-fdd75c41afa6" class="bulleted-list"><li style="list-style-type:circle"><strong>Limitado</strong> – os tokens podem ter um escopo restrito para permitir apenas o acesso necessário para o caso de uso</li></ul><ul id="310d980b-024f-4c0f-84ae-b4fada4ca6cd" class="bulleted-list"><li style="list-style-type:circle"><strong>Aleatório </strong>– os tokens não estão sujeitos aos tipos de dicionário ou tentativas de força bruta que as senhas mais simples que você precisa lembrar ou inserir regularmente podem estar</li></ul></li></ul><ul id="0031482c-bbda-434a-9f0b-9a97b84adc1b" class="bulleted-list"><li style="list-style-type:disc">Se tentar usar senha e login, ele dar um erro e pede para autenticar com o token</li></ul><ul id="b8518c70-a71d-4d8a-80e0-ee4a288eabab" class="bulleted-list"><li style="list-style-type:disc">Pelas configurações podem acessar a parte de criar tokens, e configurar ele com um nome e o tempo de expiração, além das permissões, uma vez criado ele não fica mais visível na página, a ideia e ser usado uma vez e ficar ciclando ele.</li></ul><ul id="63c911a0-1afa-41ba-8704-bfb0e35f45c3" class="bulleted-list"><li style="list-style-type:disc">Podemos salvar o token na maquina, para autenticações futuras.</li></ul><ul id="f7b5b36b-2e18-411b-946b-a8c128313485" class="bulleted-list"><li style="list-style-type:disc">Comando para adicionar o token globalmente<pre id="5ea4d12b-4736-4fee-b2df-22ac44430b1b" class="code"><code>git config --global credential.helper store</code></pre></li></ul><ul id="956f5f3e-bf97-434c-8595-0a392bb5f3e9" class="bulleted-list"><li style="list-style-type:disc">Depois só executar o comando novamente e seu está salvo </li></ul><ul id="5e577eef-6d2e-4c0f-b99b-c0555df90fb7" class="bulleted-list"><li style="list-style-type:disc">Mais informações<figure id="7d3ad90e-2031-449c-bf85-8a44facbc34a"><a href="https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Git - Credential Storage</div><div class="bookmark-description">This book is available in
+  English.</div></div><div class="bookmark-href"><img src="https://git-scm.com/favicon.ico" class="icon bookmark-icon"/>https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage</div></div></a></figure></li></ul><ul id="76e86e91-d875-438a-8c74-2935dbbffbe3" class="bulleted-list"><li style="list-style-type:disc">Ver qual tipo está salvando<pre id="3f7b16e0-1ea1-4de3-a295-f7b03dd99303" class="code"><code>git config --global credential.helper </code></pre></li></ul><ul id="8de584d3-0049-4750-8bf7-ad3cb2c8296d" class="bulleted-list"><li style="list-style-type:disc">Ver qual local ele salvou, <pre id="d5125ffa-04c0-4eab-8450-faed3b4b0847" class="code"><code>git config --global --show-origin credential.helper</code></pre></li></ul><ul id="f7330348-d8ef-46a6-b210-74b45a80fad1" class="bulleted-list"><li style="list-style-type:disc">Dentro da pasta tem duas configurações, a geral e a credencial salva</li></ul><ul id="0520c0c9-8260-492f-aa13-4ecdd1f6cb83" class="bulleted-list"><li style="list-style-type:disc">Podemos dar o comando cat + arquivo para mostra  o conteúdo do arquivo no terminal<pre id="e4e4859e-7c59-42ef-b67d-0920b0cd0a8e" class="code"><code>cat .gitconfig</code></pre></li></ul><ul id="4beca0e5-65d1-428f-b2d1-db685d1ec279" class="bulleted-list"><li style="list-style-type:disc">Tenha cuidado com credenciais salva no windows do git pode dar errado dependendo do token</li></ul><ul id="e83cb11f-2558-4a07-a81d-c58cea23cd0b" class="bulleted-list"><li style="list-style-type:disc">o ~ do terminal pode significar um alias de um caminho.</li></ul></details></li></ul><ul id="3d0af834-9fc3-46e9-ae74-c510c7e72ad4" class="toggle"><li><details open=""><summary>Autenticação via Chave SSH</summary><ul id="f96583dd-e92f-4635-9f2b-81d23741600d" class="bulleted-list"><li style="list-style-type:disc">Tópicos de ajuda<figure id="4eb34078-c841-40ec-8682-252a4bfc661c"><a href="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Conectar-se ao GitHub com o SSH - GitHub Docs</div><div class="bookmark-description">Você pode conectar-se a GitHub usando o protocolo Secure Shell (SSH), que fornece um canal seguro por meio de uma rede insegura.</div></div><div class="bookmark-href"><img src="https://docs.github.com/assets/cb-600/images/site/favicon.png" class="icon bookmark-icon"/>https://docs.github.com/pt/authentication/connecting-to-github-with-ssh</div></div><img src="https://github.githubassets.com/images/modules/open_graph/github-logo.png" class="bookmark-image"/></a></figure></li></ul><ul id="624aa989-0ed3-42b1-aca6-8c118641c357" class="bulleted-list"><li style="list-style-type:disc">Esse protocolo trabalhar com um par de chaves, um pública e uma privada, a chave pública fica no git hub e a privada fica no nosso computador</li></ul><ul id="21b14c3c-2c4a-4eab-91b8-c1f28f795a5b" class="bulleted-list"><li style="list-style-type:disc">Saber se existem chaves na maquina atual<pre id="da21ab53-c4f1-4f70-b113-76a28b226075" class="code"><code>ls -al ~/.ssh</code></pre></li></ul><ul id="d4e35adf-7437-42b1-876b-052159cd626e" class="bulleted-list"><li style="list-style-type:disc">Por padrão eles ficam armazenado no home do usuário</li></ul><ul id="5f2974dc-2a84-4daf-9d93-11c54f8519bf" class="bulleted-list"><li style="list-style-type:disc">O comando ls é para listar arquivos e o al é para exibir e listar junto com arquivos ocultos</li></ul><ul id="765b69cf-741d-4551-984c-c8aeb7e7e286" class="bulleted-list"><li style="list-style-type:disc">O $ em um terminal é o início de um novo comando</li></ul><ul id="7bb3b1af-38df-415d-b8ef-5d821c0ac1da" class="bulleted-list"><li style="list-style-type:disc">Gerar nova chave ssh<figure id="a6cf850b-fe3a-44ab-be5c-3a8881c1d9d6"><a href="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Gerando uma nova chave SSH e adicionando-a ao agente SSH - GitHub Docs</div><div class="bookmark-description">Depois de verificar a existência de chaves SSH, é possível gerar uma nova chave SSH para autenticação e adicioná-la ao ssh-agent.</div></div><div class="bookmark-href"><img src="https://docs.github.com/assets/cb-600/images/site/favicon.png" class="icon bookmark-icon"/>https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent</div></div><img src="https://github.githubassets.com/images/modules/open_graph/github-logo.png" class="bookmark-image"/></a></figure><pre id="893df87b-fb35-4216-9e05-d2e06dc9c8e8" class="code"><code>ssh-keygen -t ed25519 -C &quot;your_email@example.com&quot;</code></pre><ul id="45b02ef5-8bf4-4b32-9f31-b337b5ae3d86" class="bulleted-list"><li style="list-style-type:circle">O ed25519 é um tipo de algoritmo de criptografia, -c é comentário e na frente um identificador da chave (como comentário)</li></ul><ul id="ae082a51-9a29-4ca4-8077-b044d08f4ee5" class="bulleted-list"><li style="list-style-type:circle">Depois ele pede um local para salvar, deixamos padrão</li></ul><ul id="5f8a4b76-673e-441d-8cf0-f4687b2db67b" class="bulleted-list"><li style="list-style-type:circle">E depois uma senha</li></ul><ul id="25358453-0001-436f-9346-294ba88be41b" class="bulleted-list"><li style="list-style-type:circle">E ele gera um chave</li></ul><ul id="cb02908b-d7a2-4f67-9acb-f70c596b255c" class="bulleted-list"><li style="list-style-type:circle">Agora vamos armazena no ssh-agent para ficar de maneira segura</li></ul><ul id="4753e5b6-81df-4eb7-9c70-4f10d7311dcd" class="bulleted-list"><li style="list-style-type:circle">Inicializando o serviço<pre id="cf8406f1-5d92-49e9-b6bb-158b574167a7" class="code"><code>eval &quot;$(ssh-agent -s)&quot;</code></pre></li></ul><ul id="19af590f-eee5-4cbf-90cd-86c2644ae4cb" class="bulleted-list"><li style="list-style-type:circle">Depois ele uma mensagem de pid e um código de serviço se tudo der certo</li></ul><ul id="fa84030d-450c-4528-b8fc-f2ea68b587c5" class="bulleted-list"><li style="list-style-type:circle">Agora adicionamos a chave ao serviço<pre id="210d0883-10f0-440d-9028-df38e557bce1" class="code"><code>ssh-add ~/.ssh/id_ed25519</code></pre></li></ul><ul id="46bda69e-b7f6-4ba7-8379-7dfe064656d4" class="bulleted-list"><li style="list-style-type:circle">Agora é adicionar a chave ao github<figure id="b2a3922d-185d-44bd-af05-f49addacef65"><a href="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Adicionar uma nova chave SSH à sua conta do GitHub - GitHub Docs</div><div class="bookmark-description">Para configurar sua conta no GitHub.com para usar sua chave SSH nova (ou existente), você também precisará adicionar a chave à conta.</div></div><div class="bookmark-href"><img src="https://docs.github.com/assets/cb-600/images/site/favicon.png" class="icon bookmark-icon"/>https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account</div></div><img src="https://github.githubassets.com/images/modules/open_graph/github-logo.png" class="bookmark-image"/></a></figure></li></ul><ul id="9f9ccacf-4fdf-4c6f-b164-b5fc442db58c" class="bulleted-list"><li style="list-style-type:circle">Depois vamos em settings e depois SSH, e adicionar, damos um título e escolhemos o tipo de autenticação autentication key, a outra é para a assinatura.</li></ul><ul id="7e106ea8-ca93-41ef-8a51-2ea925ce2bb6" class="bulleted-list"><li style="list-style-type:circle">Agora vai no git bash e copie a chave pública<pre id="e46cff25-14f3-4cc6-92c7-e8454634102a" class="code"><code>cat id_ed25519.pub</code></pre></li></ul><ul id="c487bc4b-6e3c-4877-8fb2-9324698bb968" class="bulleted-list"><li style="list-style-type:circle">A depois colocamos no github a chave</li></ul></li></ul></details></li></ul></details></li></ul><ul id="8ebbd79b-25f6-4098-a760-e36958e81b5f" class="toggle"><li><details open=""><summary>Primeiros Passo com git e GitHub</summary><ul id="12578351-eb08-44c7-97dd-0ded4b6f554f" class="toggle"><li><details open=""><summary>Criando e Clonando Repositórios</summary><ul id="8bfd76ca-37e1-4dcf-8286-5f6242f517cd" class="bulleted-list"><li style="list-style-type:disc">Criando e Clonando Repositórios<ul id="55a94482-47ce-442c-ac08-27c6b092a2c3" class="bulleted-list"><li style="list-style-type:circle">Existem duas formas de obter um repositório Git na sua máquina:<ul id="5b278e97-cce7-4b02-806e-5171ecfe0659" class="bulleted-list"><li style="list-style-type:square">Transformando um diretório local que não está sob controle de versão, num repositório Git, utilizando o git init;</li></ul><ul id="6422b096-7c95-4f27-b077-18c574e74fdf" class="bulleted-list"><li style="list-style-type:square">Clonando um repositório Git existente.</li></ul></li></ul></li></ul><ul id="5909479a-f034-4a66-8106-56a0f71868b0" class="bulleted-list"><li style="list-style-type:disc">Utilizando o comando git init para poder inicializar um repositório git, no terminal aparece o nome da branch, e ele criar um pasta oculta .git na pasta em que você solicitou, e se entramos nela com terminal aparece (GIT_DIR!) , significa que é um diretório git</li></ul><ul id="d04512d8-b383-42ca-b68c-0e6194710b47" class="bulleted-list"><li style="list-style-type:disc">Essa pasta serve para gerenciar nosso repositório</li></ul><ul id="216b6028-cc75-407a-a3bb-6c34a1da42d3" class="bulleted-list"><li style="list-style-type:disc">Git clone - clona um repositório remoto<ul id="32ca0e56-a77f-4333-a60e-d4476ea429c4" class="bulleted-list"><li style="list-style-type:circle">Podemos passar mais um parâmetro para nomear a pasta inicial</li></ul><pre id="7bc2872e-659b-4944-8550-937bea1d4a93" class="code"><code>git clone url.git nome_repo</code></pre></li></ul><ul id="1e0c45c1-7ed9-4b01-8df0-2c36fb4679b2" class="bulleted-list"><li style="list-style-type:disc">Repare que ao inicializar com git init ele não tem url remota , ao clonar sim</li></ul><ul id="10747b3c-ff72-4985-889b-a24b71cf46db" class="bulleted-list"><li style="list-style-type:disc">Podemos ver  a conexão remota com o seguinte comando<pre id="2cc413a0-fdac-47f7-9841-1b3b1da262ed" class="code"><code>git remote -v</code></pre></li></ul><ul id="b83bc0af-8fa4-4291-ae40-890429357b26" class="bulleted-list"><li style="list-style-type:disc">Para adicionar usamos o seguinte comando<pre id="1bcf8cad-9619-49ef-baed-5e9ddec61b21" class="code"><code>git remote add origin url</code></pre></li></ul><ul id="869b41b4-22b1-4d0b-bc4c-9481a27a8d91" class="bulleted-list"><li style="list-style-type:disc">o origin é alias para a url, depois só utilizando o alias para ficar mais fácil, matemos o alias como origin por padrão mesmo </li></ul><ul id="fe28dd4d-c3ec-467b-81f4-6d671795e2a3" class="bulleted-list"><li style="list-style-type:disc">Caso queira clonar uma branch faremos da seguinte forma<pre id="695734a5-b723-4a20-b64e-5dd29a58f688" class="code"><code>git clone URL --branch nomeBranch</code></pre></li></ul><ul id="446ca0ec-24ee-4110-af8a-1cad45c30c6a" class="bulleted-list"><li style="list-style-type:disc">Caso queria somente uma branch (Caso não passe a branch, ele clona só a principal)<pre id="0eb43f4e-8750-4290-8cdd-6aa37119f40d" class="code"><code>git clone URL --branch nomeBranch --single-branch
+git clone URL --branch --single-branch  //Clona a principal somente</code></pre></li></ul><ul id="7b667919-cc14-4a2a-ad31-b3218ace8af7" class="bulleted-list"><li style="list-style-type:disc">Podemos criar os repositório pelo git hub, definimos o nome uma descrição, e se é público ou privado, podemos adicionar um readme (Arquivos para descreve nosso projeto) e o .gitIgnore (ignorar arquivos, aqueles não desejamos enviar para repositório remoto) e no final temos a configuração de licença.</li></ul><ul id="01cac129-6ea8-4a90-a62c-e3bd2f0b2ec6" class="bulleted-list"><li style="list-style-type:disc">Se a gente criar o readme ele vai apara uma página de ajuda para configurar o projeto. Mostra como inicializar, importa manualmente ou via terminal. </li></ul><ul id="d3fee10c-85c4-4a35-8320-7ff926d1932e" class="bulleted-list"><li style="list-style-type:disc">Também temos a área de settings para gerenciar nosso repositório no github.</li></ul></details></li></ul><ul id="0d3401f0-87ed-4c77-8265-459f9a2867d3" class="toggle"><li><details open=""><summary>Salvando alterações no repositório local</summary><ul id="bab3600a-37d6-4d56-8079-1a291061c817" class="bulleted-list"><li style="list-style-type:disc">Git status → Mostra nossa área de trabalho ou os index de commit, além de mostrar os estados do arquivo</li></ul><ul id="4f0cff36-e52b-4f27-837c-c86caa158495" class="bulleted-list"><li style="list-style-type:disc">Comando touch, esse comando é de terminal e ele cria um arquivo pedido<pre id="1cffb440-5756-4e8e-ac8a-ae4994ffaad9" class="code"><code>touch nomeArquivo.extensão</code></pre></li></ul><ul id="53960fe4-8c3d-4533-9921-f0fdcaa49988" class="bulleted-list"><li style="list-style-type:disc">README.md → É um arquivo em uma linguagem especifica de marcação, que é utilizada para estila e estruturar informações do nosso projeto, geralmente colocamos ele na área inicial do projeto, o github possui um editor especial para e o consegue renderizar. A extensão .m é de markdown.<ul id="61462a56-5e90-4b33-8af6-7be23ec7567e" class="bulleted-list"><li style="list-style-type:circle">Dar pra botar bastante coisa no markdown, gráficos interativos e diagrama interativos.</li></ul><figure id="1385c0b5-0682-480b-976a-679b3224b17e"><a href="https://docs.github.com/pt/enterprise-cloud@latest/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Guia de início rápido de gravação no GitHub - GitHub Enterprise Cloud Docs</div><div class="bookmark-description">Conheça os recursos avançados de formatação criando um LEIAME para seu perfil do GitHub.</div></div><div class="bookmark-href"><img src="https://docs.github.com/assets/cb-600/images/site/favicon.png" class="icon bookmark-icon"/>https://docs.github.com/pt/enterprise-cloud@latest/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github</div></div><img src="https://github.githubassets.com/images/modules/open_graph/github-logo.png" class="bookmark-image"/></a></figure><figure id="eef36ac5-47ad-45e5-8785-86a3312fad0d"><a href="https://docs.github.com/pt/enterprise-cloud@latest/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Sintaxe básica de gravação e formatação no GitHub - GitHub Enterprise Cloud Docs</div><div class="bookmark-description">Crie formatação sofisticada para narração e código no GitHub com sintaxe simples.</div></div><div class="bookmark-href"><img src="https://docs.github.com/assets/cb-600/images/site/favicon.png" class="icon bookmark-icon"/>https://docs.github.com/pt/enterprise-cloud@latest/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax</div></div><img src="https://github.githubassets.com/images/modules/open_graph/github-logo.png" class="bookmark-image"/></a></figure><ul id="4c483283-679d-494b-937f-c8b7e659c2d9" class="bulleted-list"><li style="list-style-type:circle">Edição online de markdown<figure id="a30af2cd-967d-497a-a962-4c7a1c9191f7"><a href="https://readme.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">ReadMe</div><div class="bookmark-description">Make your APIs easy to use and your developers successful.</div></div><div class="bookmark-href"><img src="https://readme.com/static/favicons/favicon-blue.ico" class="icon bookmark-icon"/>https://readme.com/</div></div><img src="https://readme.com/static/og_images/index.png" class="bookmark-image"/></a></figure></li></ul></li></ul><ul id="e9c67d37-6752-49c7-af51-a278574923d9" class="bulleted-list"><li style="list-style-type:disc">Adicionando arquivos em stage para fazer commit<pre id="947bff8d-1bf8-40dd-abe5-1f7fe0b6ee25" class="code"><code>git add arquivo.extenssao //Adiciona arquivo para stage
+git add --all // Adicionar todos os arquivos modificados para stage
+git add . // Adicionar todos os arquivos modificados para stage
+</code></pre></li></ul><ul id="b2c864ce-2a49-44b0-a118-f27967964a47" class="bulleted-list"><li style="list-style-type:disc">Depois do stage faremos o commit (-m é de mensagem e a mensagem é uma descrição do commit)<pre id="17c12d8d-7a3a-42a4-873e-d4cee9b02f73" class="code"><code>git commit -m &quot;Comentário do commit&quot;</code></pre></li></ul><ul id="3531daf3-526e-4ff6-8af6-82063b821e2e" class="bulleted-list"><li style="list-style-type:disc">git log → Mostra os logs dos commit com autores e descrições e data<pre id="35743161-b341-4b5f-af2d-f83a203c7c47" class="code"><code>git log</code></pre></li></ul><ul id="2b4361a1-d87d-40c2-bdae-73f43e8e67d8" class="bulleted-list"><li style="list-style-type:disc">O git add não adiciona ou reconhece pasta vazias</li></ul><ul id="0d5216d8-d6b3-47b5-94f2-3418b9231edd" class="bulleted-list"><li style="list-style-type:disc">Utilizando .ignore<ul id="b2db36ec-d996-4231-9d86-2fe6d1bb90ce" class="bulleted-list"><li style="list-style-type:circle">Podemos criar um arquivo .gitignore, nele podemos adicionar pastas e arquivo que não vão ser adicionados</li></ul><pre id="a5855dd7-7e31-4f7e-a94f-a2f48ff46d44" class="code"><code>README.md
+Arquivos/
+</code></pre></li></ul><ul id="14c1cf00-9cbf-4f23-919f-a3b66ff5560e" class="bulleted-list"><li style="list-style-type:disc">Em alguns repositório podemos ter .gitkeep que é um arquivo para preencher pasta vazias. Assim o git reconhece a pasta para subir pro github</li></ul></details></li></ul><ul id="e1d4495f-1685-4143-ad55-a997b7c9f535" class="toggle"><li><details open=""><summary>Desfazendo alterações no repositório local</summary><ul id="98bead92-7f8c-4f55-aab3-3460d4e90c10" class="bulleted-list"><li style="list-style-type:disc">Como remover o .git a força (Isso é comando via terminal), usado mais para quando for um git init errado<pre id="bffc831a-854c-4348-bd39-22bd56a9acfc" class="code"><code>rm -rf .git</code></pre></li></ul><ul id="549f1067-55b1-48af-abaf-8bad478678f2" class="bulleted-list"><li style="list-style-type:disc">Restaurar arquivos ou pastas com arquivos deletado ou modificados<pre id="4a349b8b-5d67-40a5-9328-919f400b5a4e" class="code"><code>git restore</code></pre></li></ul><ul id="44237a83-e5fc-450b-9531-b76d1bec458d" class="bulleted-list"><li style="list-style-type:disc">Como alterar a mensagem do ultimo commit<pre id="7da95d0f-52a2-4411-a4c0-6eeb9a0d4cfe" class="code"><code>git commit --amend -m &quot;Adiciona ignore e diretorios aulas e resumos&quot;</code></pre></li></ul><ul id="8993a9dd-b089-41d1-a0f0-890d33a5c9ae" class="bulleted-list"><li style="list-style-type:disc">Outra forma é editar pelo editor<pre id="7589a11d-6c07-45fa-80c9-1b2749652544" class="code"><code>git commit --amend</code></pre></li></ul><ul id="a31bf7cd-6cdf-4c4b-93c8-44fe63f3c1dc" class="bulleted-list"><li style="list-style-type:disc">Resetando commits<pre id="cacf1e29-5fa9-448b-8d7a-e6b51f9a7a60" class="code"><code>git reset --soft
+git reset --mixer
+git reset --hard</code></pre><ul id="61dc4df3-7145-4456-b985-4e03a605ef71" class="bulleted-list"><li style="list-style-type:circle">git reset soft + hash pega os arquivos do commit solicitado e volta para o stage<ul id="0a45eac3-1824-4809-9d76-b7ae0d10ea6d" class="bulleted-list"><li style="list-style-type:square">Podemos usar o git log para pegar o hash do commit</li></ul><pre id="e909fd42-e09b-4306-a248-c625934eca3f" class="code"><code>git reset --soft &quot;52125asdsa52d1sa25d1as2d&quot;</code></pre></li></ul><ul id="91ff7738-46de-4664-917a-8992ded33c8b" class="bulleted-list"><li style="list-style-type:circle">git reset mixed + hash pega os arquivos e volta ao original modificados, não em stage igual ao soft<pre id="64906be7-b9a7-4b81-8deb-cc5c9bcae669" class="code"><code>git reset --mixed &quot;52125asdsa52d1sa25d1as2d&quot;</code></pre></li></ul><ul id="bc48a8d8-61a2-4b65-90ca-b4affc679269" class="bulleted-list"><li style="list-style-type:circle">git reset hard + hash reserta o commit e deletas os arquivos feitos<pre id="c9d242dd-ae08-4706-95ac-f6fdb2e0710f" class="code"><code>git reset --hard &quot;52125asdsa52d1sa25d1as2d&quot;</code></pre></li></ul></li></ul><ul id="4d199220-9645-46b9-a73b-c04add8aa771" class="bulleted-list"><li style="list-style-type:disc">Podemos ver o histórico de alterações<pre id="ddd98ead-96c5-41fd-8a42-6806ae5093f8" class="code"><code>git reflog</code></pre></li></ul><ul id="45e1b22d-6f1d-4592-830e-66fd6c0660aa" class="bulleted-list"><li style="list-style-type:disc">Lembrando que isso deve ser feito localmente é melhor<ul id="89b055a5-ef67-495c-9a94-9b5008968377" class="bulleted-list"><li style="list-style-type:circle">Se você fizer o commit errado, é melhor fazer um outro commit corrigindo do que desfazer, pois tem histórico e pode gerar problemas maiores. </li></ul></li></ul><ul id="ae6edd4e-9af5-442b-a042-285832719768" class="bulleted-list"><li style="list-style-type:disc">Podemos usar o reset no stage também, <ul id="12dccbe7-43b0-474b-9a8a-d35bf1c57521" class="bulleted-list"><li style="list-style-type:circle">Ele tira o arquivo do stage e manda par área de trabalho normal<pre id="0613a531-4a1f-495d-8587-1adc3340e1a3" class="code"><code>git reset nomeArquivo</code></pre></li></ul><ul id="b1ca1626-667b-45b0-ac9b-c59e51139411" class="bulleted-list"><li style="list-style-type:circle">Outra opção é usar o git restore mas passando da seguinte forma<pre id="13998c8f-44ba-4156-b12e-999870d63564" class="code"><code>git restore --staged nomeArquivo.extensao</code></pre></li></ul></li></ul><ul id="6185e979-64b1-4a83-a129-7cf19f1f3696" class="bulleted-list"><li style="list-style-type:disc">Tomar cuidar ao botar algo em stage, alterar de novo o arquivo e dar um restore ou reset, pois ele sobrepõe os arquivos da área de trabalho</li></ul></details></li></ul><ul id="067d8ec9-9f55-4b9a-94e9-5d355d2dfee6" class="toggle"><li><details open=""><summary>Enviando e Baixando alterações com o repositório remoto</summary><p id="4940619e-b4fc-4a29-a598-bbfb6e3a5418" class="">
+</p></details></li></ul><ul id="e3e3945d-ce47-41be-8c3b-9de719c10a0e" class="toggle"><li><details open=""><summary>Trabalhando com branches - criando, mesclando, deletando e Tratando conflitos</summary></details></li></ul><ul id="988734a7-488c-4b41-b523-aa8bfce36cff" class="toggle"><li><details open=""><summary>Trabalhando com branches - Comando úteis no dia a dia</summary></details></li></ul></details></li></ul><ul id="068ac9ce-0dda-4711-a8d5-a448c1bcac0a" class="toggle"><li><details open=""><summary>Dicas e materiais de Apoio</summary></details></li></ul><ul id="c895531a-fdf6-413e-87a7-daa9d29cfddc" class="toggle"><li><details open=""><summary>Questionário</summary></details></li></ul></details></li></ul><ul id="5ace0565-3ca6-4f4e-b63e-fb6ce3726192" class="toggle"><li><details open=""><summary>Desafios de projeto: Crie um portfólio vencedor</summary></details></li></ul><ul id="eae595e3-8846-4e7c-9065-d729c00aea37" class="toggle"><li><details open=""><summary>Contribuindo em um projeto Open Source no GitHub</summary></details></li></ul><ul id="2e03a19c-e805-4ffd-b353-58acab15489b" class="toggle"><li><details open=""><summary>Metodologias ágeis e ciclo de desenvolvimento de software</summary></details></li></ul><ul id="8629a35f-15d5-4577-acff-97c83d131dd8" class="toggle"><li><details open=""><summary>Aula inaugural - Bootcamp WEX - Desenvolvimento .NET e QA</summary><ul id="89841bbb-de44-4c63-a525-bd54732b740d" class="bulleted-list"><li style="list-style-type:disc">Apresentação inicial da DIO</li></ul></details></li></ul></details></li></ul><ul id="5bbea914-e485-4189-82b2-dafc36e008b4" class="toggle"><li><details open=""><summary>Fundamentos .NET</summary></details></li></ul><ul id="8f70c44e-7c9b-4dc1-87de-71ccf00b3bba" class="toggle"><li><details open=""><summary>Treinando sua lógica com desafios de código C#</summary></details></li></ul><ul id="3a225a4c-d343-4ca8-95c6-3171db0d6037" class="toggle"><li><details open=""><summary>Explorando a linguagem C#</summary></details></li></ul><ul id="a2fe8267-1056-443c-a008-da290bfb7be9" class="toggle"><li><details open=""><summary>Programação orientada a objetos com C#</summary></details></li></ul><ul id="3043f477-742a-47a9-914c-9a7dbe951dd4" class="toggle"><li><details open=""><summary>Manipulando dados SQL Server e API com dados</summary></details></li></ul><ul id="b39a42f4-a4f2-4459-abb2-700dd72b2fb0" class="toggle"><li><details open=""><summary>Trabalhando com desenvolvimento orientado a testes</summary></details></li></ul><ul id="6d5876d9-f2f9-4a65-b2f0-c551697ecf09" class="toggle"><li><details open=""><summary>Introdução à qualidade de software</summary></details></li></ul></details></li></ul><p id="ffe8193d-5289-4ec2-9788-2ae550f9ed0c" class="">
+</p></div></article></body></html>

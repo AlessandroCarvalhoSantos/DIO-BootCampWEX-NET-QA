@@ -1,47 +1,34 @@
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40px">Repositório do Bootcamp WEX - Desenvolvimento .NET e QA disposto pela Digital Innovation One.
+<img src="./04 - Outros/assets/img/readme/Capa.png" width="100%">
 
+​			Olá pessoal, meu nome é **Alessandro C. Santos**, tenho **23 anos** e estou adentrando na carreira de **desenvolvedor FullStack e designer**, estou me graduando em **Sistema de Informação** no Instituto Federal do Espírito Santo - Campus Cachoeiro de Itapemirim, atualmente **trabalho a mais de 1 ano** na Captar Consultoria Pública,  onde se destaca na **análise, desenvolvimento, manutenção e inovação de produtos internos**, consolidando sua posição como uma empresa líder na prestação de serviços de assistência social para municípios e Estados em todo o Brasil. **Estagiei** na prefeitura municipal de Cachoeiro de Itapemirim **por 1 ano**. Sempre fui aficionado por tecnologia, tenho muito a trilhar, mas já dei meus primeiros passos e construirei uma grande carreira pela frente. 
 
+:pushpin: Especializando no ecossistema .NET
 
-Olá pessoal, meu nome é Alessandro C. Santos e estou adentrando na carreira de desenvolvedor FullStack e designer, estou me graduando em Sistema de Informação no Instituto Federal do Espírito Santo - Campus Cachoeiro de Itapemirim, atualmente trabalho a mais de 1 ano na Captar Consultoria Pública,  onde se destaca na análise, desenvolvimento, manutenção e inovação de produtos internos, consolidando sua posição como uma empresa líder na prestação de serviços de assistência social para municípios e Estados em todo o Brasil. A especialização da empresa está na entrega de soluções voltadas para captação de recursos e desenvolvimento de softwares de gestão do SUAS, com um enfoque primordial em atender Órgãos Públicos Federais, Estaduais e Municipais, além de empresas privadas e entidades sem fins lucrativos. 
+<details style="background-color:black; color:white; padding:10px;">
+    <summary> Mais sobre mim</summary>
+    <div style="padding:10px;text-align:left">
+     	<p>  A especialização da empresa onde eu trabalho está na entrega de soluções voltadas para captação de recursos e desenvolvimento de softwares de gestão do SUAS, com um enfoque primordial em atender Órgãos Públicos Federais, Estaduais e Municipais, além de empresas privadas e entidades sem fins lucrativos. </p>
+          <p> Tenho uma atuação consolidada como desenvolvedor pleno na empresa, englobando desde a concepção e implementação de interfaces, do back-end ao front-end, até a administração de bancos de dados. Além disso, desempenho um papel vital na manutenção de servidores e demais serviços hospedados na AWS.</p>
+          <p> Como parte integrante da equipe, também me destaco no treinamento de novos membros, na resolução ágil de bugs e no suporte técnico, garantindo a eficácia operacional dos projetos. Em momentos críticos, já assumi liderança da equipe de programação, orientando decisões e impulsionando resultados. </p>
+         <p> Essa abordagem abrangente e proativa no ciclo de desenvolvimento reflete meu compromisso em proporcionar soluções robustas e de alta qualidade. Estou sempre pronto para enfrentar desafios e garantir o sucesso dos projetos em que estou envolvido. </p>
+         <p> Minha trajetória inclui uma experiência enriquecedora como estagiário na Prefeitura Municipal de Cachoeiro de Itapemirim - ES, onde tive a oportunidade e a liberdade para desenvolver sistemas essenciais para a cidade. Abaixo, destaco alguns dos sistemas que tive o privilégio de contribuir.</p>
+         <p> Ao longo desse percurso, adquiri conhecimentos sólidos e estou em constante busca por aprimoramento. A curto prazo, tenho como meta consolidar habilidades que listei abaixo. Estou atualmente investindo em uma série de cursos na área, visando ampliar meu escopo de competências. </p>
+         <p> Além disso, acumulei experiência relevante ao atuar como freelancer na área de design. Esta experiência proporcionou uma visão holística do processo de desenvolvimento, reforçando minha capacidade de entrega de soluções criativas e funcionais.</p>
+         <p> Atualmente, estou em fase de organização do meu perfil no LinkedIn, migrando diversos projetos para o GitHub (anteriormente utilizava o GitLab) e trabalhando na criação do meu site pessoal. Estou focado em participar de diversos mini cursos e Bootcamp, aproveitando ao máximo das minhas experiencias. </p>
+         <p> Participar deste BootCamp foi um desafio pessoal, uma oportunidade de romper com meus métodos de estudo convencionais. Sou metódico e prezo pela minuciosidade na organização e registro de cada detalhe, o que, embora eficaz, pode demandar tempo e paciência. Minha habilidade de aprendizado rápido, especialmente em disciplinas de exatas, é uma característica que valorizo. No entanto, reconheço a importância de manter em mente os detalhes ao longo do tempo, e por isso mantenho o hábito de anotar tudo. Nos finais de semana, revisito conteúdos de forma aleatória, o que tem se mostrado eficaz.</p>
+         <p> A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver métodos de estudo mais ágeis e eficientes, saindo da minha zona de conforto e adotando abordagens mais dinâmicas para o desenvolvimento de projetos dentro de prazos determinados.</p>
+    </div>
+</details>
 
-Tenho uma atuação consolidada como desenvolvedor pleno na empresa, englobando desde a concepção e implementação de interfaces, do back-end ao front-end, até a administração de bancos de dados. Além disso, desempenho um papel vital na manutenção de servidores e demais serviços hospedados na AWS.
+------
 
-Como parte integrante da equipe, também me destaco no treinamento de novos membros, na resolução ágil de bugs e no suporte técnico, garantindo a eficácia operacional dos projetos. Em momentos críticos, já assumi liderança da equipe de programação, orientando decisões e impulsionando resultados.
+## **[🌐 Minhas Redes:](hhttps://github.com/AlessandroCarvalhoSantos#minhas-habilidades#-minhas-redes)**
 
-Essa abordagem abrangente e proativa no ciclo de desenvolvimento reflete meu compromisso em proporcionar soluções robustas e de alta qualidade. Estou sempre pronto para enfrentar desafios e garantir o sucesso dos projetos em que estou envolvido.
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/alessandroc_santos/)[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](www.linkedin.com/in/alessandrocarvalhosantos)[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/alessandroc.santos)
 
-Minha trajetória inclui uma experiência enriquecedora como estagiário na Prefeitura Municipal de Cachoeiro de Itapemirim - ES, onde tive a oportunidade e a liberdade para desenvolver sistemas essenciais para a cidade. Abaixo, destaco alguns dos sistemas que tive o privilégio de contribuir;
+------
 
-Ao longo desse percurso, adquiri conhecimentos sólidos e estou em constante busca por aprimoramento. A curto prazo, tenho como meta consolidar habilidades que listei abaixo. Estou atualmente investindo em uma série de cursos na área, visando ampliar meu escopo de competências.
-
-Além disso, acumulei experiência relevante ao atuar como freelancer na área de design. Esta experiência proporcionou uma visão holística do processo de desenvolvimento, reforçando minha capacidade de entrega de soluções criativas e funcionais.
-
-Atualmente, estou em fase de organização do meu perfil no LinkedIn, migrando diversos projetos para o GitHub (anteriormente utilizava o GitLab) e trabalhando na criação do meu site pessoal. Estou focado em participar de diversos mini cursos e Bootcamp, aproveitando ao máximo das minhas experiencias. 
-
-Participar deste BootCamp foi um desafio pessoal, uma oportunidade de romper com meus métodos de estudo convencionais. Sou metódico e prezo pela minuciosidade na organização e registro de cada detalhe, o que, embora eficaz, pode demandar tempo e paciência. Minha habilidade de aprendizado rápido, especialmente em disciplinas de exatas, é uma característica que valorizo. No entanto, reconheço a importância de manter em mente os detalhes ao longo do tempo, e por isso mantenho o hábito de anotar tudo. Nos finais de semana, revisito conteúdos de forma aleatória, o que tem se mostrado eficaz.
-
-A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver métodos de estudo mais ágeis e eficientes, saindo da minha zona de conforto e adotando abordagens mais dinâmicas para o desenvolvimento de projetos dentro de prazos determinados.
-
------
-
-##### :pushpin:Minhas habilidades
-
-- Fácil aprendizagem
-- Autonomia
-- Paciência
-- Criatividade 
-- Comprometimento
-- Flexibilidade e capacidade de se adaptar a mudanças 
-
-----
-
-
-
----
-
-##### :heavy_check_mark:Tecnologias que tenho conhecimento
-
-:blue_book:Maiores conhecimentos:
+##### :heavy_check_mark:Tecnologias que tenho maior conhecimento
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"><img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
@@ -59,16 +46,36 @@ A participação no BootCamp impôs um novo ritmo e a necessidade de desenvolver
 
 <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-----
+:dart: Outras ferramentas que tenho conhecimento:
 
-##### :dart:Tecnologias que pretendo estudar a médio e longo prazo
-
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"><img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"><img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white">![Xamarin](https://img.shields.io/badge/Xamarin-3199DC?style=for-the-badge&logo=xamarin&logoColor=white)
+![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 
 ----
 
+##### :pushpin:Minhas habilidades
+
+- Fácil aprendizagem
+- Autonomia
+- Paciência
+- Criatividade 
+- Comprometimento
+- Flexibilidade e capacidade de se adaptar a mudanças 
+
+------
+
+
+
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=AlessandroCarvalhoSantos&theme=theme=dark&hide_border=false" />
+
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=AlessandroCarvalhoSantos&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=dark#gh-dark-mode-only" />
+
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlessandroCarvalhoSantos&layout=compact" />
+
+
+<details style="background-color:black; color:white; padding:10px;">
+    <summary> Mais sobre meus trabalhos </summary>
+    <div style="padding:10px;text-align:left">
+        
 :computer:Sistemas em que trabalho atualmente juntos a outros programadores
 
 O Sistema Único de Assistência Social (SUAS) é uma política pública implementada no Brasil para promover e garantir o acesso aos direitos sociais de cidadania, especialmente aqueles em situação de vulnerabilidade e risco social. Ele é coordenado pelo Ministério da Cidadania e executado em parceria com estados, municípios e o Distrito Federal.
@@ -191,6 +198,8 @@ Nos estados do Espírito Santo e Bahia, o SUAS desempenha um papel fundamental n
     </div>
 </details>
 
+</div>
+</details>
 
 
 :ledger: Bom, se você chegou ate aqui é que você se interessou pelo meu perfil, agradeço por ter lido e abaixo tenho algumas formas de entrar em contato caso tenha interesse para algum trabalho profissional, fique a vontade!
