@@ -1,0 +1,15 @@
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\bin\Debug\net8.0\01 - Entendendo C#.exe
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\bin\Debug\net8.0\01 - Entendendo C#.deps.json
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\bin\Debug\net8.0\01 - Entendendo C#.runtimeconfig.json
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\bin\Debug\net8.0\01 - Entendendo C#.dll
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\bin\Debug\net8.0\01 - Entendendo C#.pdb
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\obj\Debug\net8.0\01 - Entendendo C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\obj\Debug\net8.0\01 - Entendendo C#.AssemblyInfoInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\obj\Debug\net8.0\01 - Entendendo C#.AssemblyInfo.cs
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\obj\Debug\net8.0\01 - Entendendo C#.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\obj\Debug\net8.0\01 - Entendendo C#.sourcelink.json
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\obj\Debug\net8.0\01 - Entendendo C#.dll
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\obj\Debug\net8.0\refint\01 - Entendendo C#.dll
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\obj\Debug\net8.0\01 - Entendendo C#.pdb
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\obj\Debug\net8.0\01 - Entendendo C#.genruntimeconfig.cache
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\01 - Fundamentos C#\01 - Entendendo C#\obj\Debug\net8.0\ref\01 - Entendendo C#.dll
