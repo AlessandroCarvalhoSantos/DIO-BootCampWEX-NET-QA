@@ -1,4 +1,4 @@
-namespace ModelsPessoa;
+namespace Models;
 
 public class Pessoa
 {
