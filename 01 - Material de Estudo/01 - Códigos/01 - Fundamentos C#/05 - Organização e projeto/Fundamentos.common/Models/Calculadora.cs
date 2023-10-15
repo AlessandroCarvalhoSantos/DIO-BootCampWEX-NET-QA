@@ -1,4 +1,4 @@
-namespace Models;
+namespace Fundamentos.common.Models;
 
 
 public class Calculadora

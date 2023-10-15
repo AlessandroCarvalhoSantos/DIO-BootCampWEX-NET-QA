@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alessandro\\Desktop\\Repositórios\\DIO-BootCampWEX-NET-QA\\01 - Material de Estudo\\01 - Códigos\\01 - Fundamentos C#\\05 - Organização e projeto\\05 - Organização e projeto.csproj",
-      "projectName": "05 - Organização e projeto",
-      "projectPath": "C:\\Users\\Alessandro\\Desktop\\Repositórios\\DIO-BootCampWEX-NET-QA\\01 - Material de Estudo\\01 - Códigos\\01 - Fundamentos C#\\05 - Organização e projeto\\05 - Organização e projeto.csproj",
+      "projectUniqueName": "C:\\Users\\Alessandro\\Desktop\\Repositórios\\DIO-BootCampWEX-NET-QA\\01 - Material de Estudo\\01 - Códigos\\01 - Fundamentos C#\\05 - Organização e projeto\\Fundamentos.common\\Fundamentos.common.csproj",
+      "projectName": "Fundamentos.common",
+      "projectPath": "C:\\Users\\Alessandro\\Desktop\\Repositórios\\DIO-BootCampWEX-NET-QA\\01 - Material de Estudo\\01 - Códigos\\01 - Fundamentos C#\\05 - Organização e projeto\\Fundamentos.common\\Fundamentos.common.csproj",
       "packagesPath": "C:\\Users\\Alessandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alessandro\\Desktop\\Repositórios\\DIO-BootCampWEX-NET-QA\\01 - Material de Estudo\\01 - Códigos\\01 - Fundamentos C#\\05 - Organização e projeto\\obj\\",
+      "outputPath": "C:\\Users\\Alessandro\\Desktop\\Repositórios\\DIO-BootCampWEX-NET-QA\\01 - Material de Estudo\\01 - Códigos\\01 - Fundamentos C#\\05 - Organização e projeto\\Fundamentos.common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
