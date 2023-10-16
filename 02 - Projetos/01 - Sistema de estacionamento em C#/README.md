@@ -40,13 +40,13 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 
 - Imagens do Projeto já feito
 
-  ![image-20231016124514350](C:\Users\Alessandro\AppData\Roaming\Typora\typora-user-images\image-20231016124514350.png)
+  <img src="./terminal1.png" width="100%"/>
 
-  ​									![image-20231016124538550](C:\Users\Alessandro\AppData\Roaming\Typora\typora-user-images\image-20231016124538550.png)
-
-​										![image-20231016124609008](C:\Users\Alessandro\AppData\Roaming\Typora\typora-user-images\image-20231016124609008.png)
-
-​										![image-20231016124826272](C:\Users\Alessandro\AppData\Roaming\Typora\typora-user-images\image-20231016124826272.png)
+  <img src="./terminal2.png" width="100%"/>
+  
+  <img src="./terminal3.png" width="100%"/>
+  
+  ​		<img src="./terminal4.png" width="100%"/>												
 
 - Além de que foi pedido
   - Criei soluções diferentes para separa e criei uma classe menu para desenhar melhor a tela e gerenciar o fluxo.
