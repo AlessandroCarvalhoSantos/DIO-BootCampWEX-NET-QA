@@ -1,0 +1,15 @@
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\bin\Debug\net8.0\01 - Classes.exe
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\bin\Debug\net8.0\01 - Classes.deps.json
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\bin\Debug\net8.0\01 - Classes.runtimeconfig.json
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\bin\Debug\net8.0\01 - Classes.dll
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\bin\Debug\net8.0\01 - Classes.pdb
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\obj\Debug\net8.0\01 - Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\obj\Debug\net8.0\01 - Classes.AssemblyInfoInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\obj\Debug\net8.0\01 - Classes.AssemblyInfo.cs
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\obj\Debug\net8.0\01 - Classes.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\obj\Debug\net8.0\01 - Classes.sourcelink.json
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\obj\Debug\net8.0\01 - Classes.dll
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\obj\Debug\net8.0\refint\01 - Classes.dll
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\obj\Debug\net8.0\01 - Classes.pdb
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\obj\Debug\net8.0\01 - Classes.genruntimeconfig.cache
+C:\Users\Alessandro\Desktop\Repositórios\DIO-BootCampWEX-NET-QA\01 - Material de Estudo\01 - Códigos\03 - Explorando a linguagem C#\01 - Classes\obj\Debug\net8.0\ref\01 - Classes.dll
